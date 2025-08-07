@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Traffic Light with Pole</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="traffic-container">
+      <div class="traffic-body">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+      </div>
+      <div class="pole"></div>
+    <div class="base1"></div>
+    <div class="base2"></div>
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  background: #e8f0ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traffic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.traffic-body {
+  width: 30px;
+  height: 140px;
+  background: #1e1e2f;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light {
+  width:40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background: #444;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.7);
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: #00cc00;
+}
+
+.pole {
+  width: 18px;
+  height: 96px;
+  background: #1e1e2f;
+  margin-top: -5px;
+}
+
+.base1 {
+  width: 30px;
+  height: 40px;
+  background: #212126;
+  borde1r-radius: 3px;
+  margin-top:-3px;
+}
+.base2 {
+  width: 70px;
+  height: 20px;
+  background: #1a1a1f;
+  border-radius: 6px;
+  margin-top:-6px;
+}
+    </style>
+  </body>
+</html>
